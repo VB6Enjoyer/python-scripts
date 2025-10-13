@@ -16,7 +16,7 @@ def extract_urls(url, filter_artists=False):
             
             if filter_artists:
                 # Regex pattern for artist pages URLs only
-                pattern = r"http://mp3-2003\.computer-legacy\.com/artists/\d+/.+\.html"
+                pattern = r"http://mp3-2003\.computer-legacy\.com/artists/\d+/.+\.html" # Replace with whichever pattern you need.
                 
                 if re.match(pattern, full_url): # Checks if the URL matches the specified pattern using regex.
                     urls.add(full_url);
@@ -30,4 +30,5 @@ def extract_urls(url, filter_artists=False):
     #extracted_urls = extract_urls(website_url, True);
     #print("Extracted URLs:");
     #for url in extracted_urls:
+
     #    print(url);
