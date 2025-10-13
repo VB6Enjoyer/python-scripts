@@ -2,7 +2,7 @@ import os
 
 # --- Configuration ---
 # ⚠️ IMPORTANT: Set this to the folder where your images and .txt files are located.
-SOURCE_DIR = r"I:\Users\Necro\Desktop\Carpeta Personal\Programas\ComfyUI_windows_portable\ComfyUI\input"
+SOURCE_DIR = r""
 
 # Add any other image extensions you use (e.g., '.webp', '.tiff')
 IMAGE_EXTENSIONS = ['.png', '.jpg', '.jpeg'] 
@@ -59,4 +59,5 @@ def rename_sidecar_files(source_directory, extensions):
 
 # Execute the function
 if __name__ == "__main__":
+
     rename_sidecar_files(SOURCE_DIR, IMAGE_EXTENSIONS)
