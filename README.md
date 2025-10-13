@@ -5,6 +5,8 @@ These are Python scripts I've made (or vibe-coded) throughout the years to autom
 
 Scrapes anime titles from searches and exports them to an Excel spreadsheet. Very useful when you want to make a list of anime based on particular metadata, like anime available on X platform, or with Y combination of genres.
 
+Note: The URL specified should include the "view=2" parameter.
+
 Made in April 2024.
 
 ## Extract mp3.com Artist Metadata
