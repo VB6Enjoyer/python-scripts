@@ -21,6 +21,12 @@ Likely the most superfluous script ever made. There's likely a million variation
 
 Made in September 2023.
 
+## MIDI to Text
+
+There are many cases in which you would like a MIDI file in text format... like... uh... well... I guess you can find some use for it!
+
+Made in November 2025.
+
 ## MP3 list to XLSX
 
 This is probably made superfluous by software like Mp3Tag. Regardless, it creates a spreadsheet based on all the metadata of all the .mp3 files present in a folder. Can likely be modified to work with .flac and other formats. Useful if you want a list of metadata for your unordered music folder? I guess?
